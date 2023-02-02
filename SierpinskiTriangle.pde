@@ -63,7 +63,7 @@ public void sierpinskisq(int x, int y, int len)
 {
   if (len <= limit){
     fill(#FC36CE);
-    circle(x,y,len/2);
+    circle(x,y,(len/2));
   }
   else{
     sierpinskisq(x,y,len/2);
